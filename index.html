@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"
+        >
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <title>NGO website build by Saroj</title>
+    </head>
+    <body>
+        <!-- navbar part is satrt now  -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- Just an image -->
+            <nav class="navbar navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                    <img
+                        src="images/images 1 for the NGO website.jpg"
+                        width="50"
+                        height="50"
+                        alt="LOGO"
+                    >
+                </a>
+            </nav>
+            <a class="navbar-brand" href="#" style="color: #48709d;">Nepal Rural Development Network</a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto ">
+                    <!-- i am going to add some css to supportive this content -->
+                    <style>
+                   ul li{padding:20px;}
+                    </style>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">
+                            Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/activity.html">Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/plans.html"> Future Plans</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- next part is going to be the part of images  -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100 " src="https://th.bing.com/th/id/R.c30ece3a2a7782139fb1825cb4d33fcf?rik=ixd9Sx6hpaICUA&riu=http%3a%2f%2fassets-cdn.ekantipur.com%2fimages%2fthe-kathmandu-post%2fmiscellaneous%2fIMG_4091-04062019074258.JPG&ehk=4cXVQ7CJQTl37A%2fuHvna8%2fDdd5Ve0wi%2bW22Ex4Ixz4s%3d&risl=&pid=ImgRaw&r=0" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="h3 title" style="color:blue;
+                        border-radius: 10px;border-color: blue;
+                        
+                       "> We are based on the  community of Mugu ,Karnali,Nepal</h5>
+                        <p>...</p>
+                    </span>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://live.staticflickr.com/4088/5172923976_9123e40864.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Child-based environment in the village</h5>
+                        <p>...</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://i.ytimg.com/vi/gejTYkwa7xI/maxresdefault.jpg" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block"  >
+                        <h5 class="h1 title " style="color:rgb(22, 188, 30);
+                        font-size: ;">we are working for women empowernment</h5>
+                        <p>...</p>
+                    </div>
+                </div>
+            </div>
+            <a
+                class="carousel-control-prev"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="prev"
+            >
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a
+                class="carousel-control-next"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="next"
+            >
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!-- this is going to be the another part in thw form of website making  -->
+        <div class="important">
+            <div class="important-text">
+                <h2>Our Main Activities</h2>
+            </div>
+        </div>
+        <br>
+        <br>
+        <!-- i am going to the main activities portion of the website -->
+        <div class="activities">
+            <div class="card-deck">
+                <div class="card">
+                    <img
+                        class="card-img-top img-fluid"
+                        style=" max-width: 100% "
+                        src="images/images 1 of the activity.jpg"
+                        alt=" image1"
+                    >
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a href="html/activity.html">Kids Health & safety</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <img
+                        class="card-img-top img-fluid"
+                        style=" max-width: 100%"
+                        src="images/food images.jpg"
+                        alt="Card image cap"
+                    >
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a href="html/activity.html">Food & Nutrition</a>
+                        </h5>
+                    </div>
+                </div>
+                <style>
+        .img-fluid {
+  max-width: 100%;
+  height: 100%;
+        }
+                </style>
+                <div class="card">
+                    <img
+                        class="card-img-top img-fluid"
+                        style=" max-width: 100% "
+                        src="images/activity 4 image.jpg"
+                        alt="Card image cap"
+                    >
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <h5 class="card-title">
+                                <a href="html/activity.html">Women Empowerment</a>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <!-- the next part is the short view of the chairman about this ngo. -->
+            <div class="message">
+                <div class="message-text">
+                    <h2>Short Message from our Director :</h2>
+                </div>
+            </div>
+            <br>
+            <div class="privatemesage">
+                <div class="chairmantext">
+                    <P>
+                        "  This is the non-profit and public interest social organizations and we are 
+                        playing a vital role in the development of Education ,Health ,Agriculture,
+                        Global warming and the natural energy sectors.we are conducting so many programmes and 
+                        some are  on the way and also we are preapring to conduct various programmes for 
+                        youth empowerment ,women empowerment and child health and safety especially in the 
+                        village areas of Nepal.We need your help to do something to develop our society.
+                        Please donate us !,your small amount can  make someone happy!!  "
+                    </P>
+                </div>
+                <div class="chairmanimage">
+                    <img src="director photo.jpg" alt="Director image" style="border:20px solid rgb(31, 224, 105);;">
+                    <h3 class="sarojtext" style="color:blue;">Mr.Manoj Kumar shahi</h3>
+                </div>
+            </div>
+            <br>
+            <br>
+            <!-- next part is to include the location of our agency -->
+            <!-- this is going to be the second last part of our website. -->
+            <div class="formtext">
+                <div class="form">
+                    <h2 class="form-heading">
+                        If you have any question  ,please  send a message or 
+                    contact us !
+                    </h2>
+                    <form>
+                        <div class="form-group col-md-6">
+                            <label for="exampleInputEmail1">Name</label>
+                            <input
+                                type="email"
+                                class="form-control"
+                                id="exampleInputEmail1"
+                                aria-describedby="emailHelp"
+                                placeholder="Enter your name"
+                            >
+                            <small id="emailHelp" class="form-text text-muted"></small>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input
+                                type="email"
+                                class="form-control"
+                                id="exampleInputEmail1"
+                                aria-describedby="emailHelp"
+                                placeholder="Enter email"
+                            >
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="exampleInputPassword1">Phone number</label>
+                            <input
+                                type="password"
+                                class="form-control"
+                                id="exampleInputPassword1"
+                                placeholder="Phone number"
+                            >
+                        </div>
+                        <form>
+                            <div class="form-row"></div>
+                            <div class="form-group col-md-6">
+                                <label for="inputAddress">Address</label>
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="inputAddress"
+                                    placeholder=".. yeading lane ,Hayes"
+                                >
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputCity">Country</label>
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="inputCity"
+                                    placeholder="United Kingdom"
+                                >
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </form>
+            <br>
+            <button type="submit" class="button ">
+                <a href="html/submit.html" class="submit-button">Submit</a>
+            </button>
+            <style>
+                        .button{
+                            color:brown;
+                            border:2px solid blue;
+                            border-radius: 10px;
+                           background-color: brown;
+                           text-decoration: none;
+                        }
+                        .button:hover{
+                            text-decoration: none;
+                            background-color: blue;
+                        }
+                        .submit-button:hover{
+                            color:aqua;
+                            text-decoration: none;
+                            list-style: none;
+                            background-color: blue;
+                        }
+            </style>
+        </form>
+    </div>
+    <br>
+    <br>
+    <!-- the last part of my website is some useful imformation  -->
+    <footer>
+        <div class="footer">
+            <div class="last">
+                <div class="last-text">
+                    <h3>If you intersted ,please contribut us to help the society!</h3>
+                </div>
+            </div>
+            <br>
+            <div class="sub-last">
+                <div class="last-text">
+                    <h4>Nepal Rural development Network</h4>
+                    <h4>Chayanath , Mugu , Nepal</h4>
+                    <br>
+                    <h5>Meet our representatives:</h5>
+                </div>
+            </div>
+            <br>
+            <div class="footer-last">
+                <div class="member1-text">
+                    <h3>Manoj kumar shai</h3>
+                    <h4>Director</h4>
+                    <h5>Mugu,Nepal</h5>
+                    <h5>Phone number</h5>
+                </div>
+                <div class="member2-text">
+                    <h3>Akhanda Karki</h3>
+                    <h4>Secretary</h4>
+                    <h5>  Mugu,Nepal</h5>
+                    <h5>Contact number</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
